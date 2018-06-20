@@ -23,5 +23,13 @@ public class TestSumar {
 		assertEquals(4,resultado);
 		
 	}
+	
+	@Test
+	public void test2() {
+		Calculadora c = new Calculadora();
+		int resultado = c.sumar(Integer.MAX_VALUE,Integer.MAX_VALUE);
+		assertEquals(Integer.MAX_VALUE,resultado);
+		
+	}
 
 }
